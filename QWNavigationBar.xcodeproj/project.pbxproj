@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D616FE1A218F058A00B250DA /* UIViewController+QWNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D616FE19218F058A00B250DA /* UIViewController+QWNavigationBar.m */; };
 		D636C245218EF97000CC9DC8 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C244218EF97000CC9DC8 /* AppDelegate.m */; };
 		D636C248218EF97000CC9DC8 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C247218EF97000CC9DC8 /* ViewController.m */; };
 		D636C24B218EF97000CC9DC8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D636C249218EF97000CC9DC8 /* Main.storyboard */; };
@@ -15,6 +16,9 @@
 		D636C253218EF97100CC9DC8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C252218EF97100CC9DC8 /* main.m */; };
 		D636C25D218EF97100CC9DC8 /* QWNavigationBarTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C25C218EF97100CC9DC8 /* QWNavigationBarTests.m */; };
 		D636C268218EF97100CC9DC8 /* QWNavigationBarUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C267218EF97100CC9DC8 /* QWNavigationBarUITests.m */; };
+		D636C277218EF98600CC9DC8 /* QWNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C276218EF98600CC9DC8 /* QWNavigationBar.m */; };
+		D636C27A218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C279218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.m */; };
+		D636C27D218EFE2800CC9DC8 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D636C27C218EFE2800CC9DC8 /* TwoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +39,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		D616FE18218F058A00B250DA /* UIViewController+QWNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+QWNavigationBar.h"; sourceTree = "<group>"; };
+		D616FE19218F058A00B250DA /* UIViewController+QWNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+QWNavigationBar.m"; sourceTree = "<group>"; };
 		D636C240218EF97000CC9DC8 /* QWNavigationBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QWNavigationBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D636C243218EF97000CC9DC8 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		D636C244218EF97000CC9DC8 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +57,12 @@
 		D636C263218EF97100CC9DC8 /* QWNavigationBarUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QWNavigationBarUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D636C267218EF97100CC9DC8 /* QWNavigationBarUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWNavigationBarUITests.m; sourceTree = "<group>"; };
 		D636C269218EF97100CC9DC8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D636C275218EF98600CC9DC8 /* QWNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QWNavigationBar.h; sourceTree = "<group>"; };
+		D636C276218EF98600CC9DC8 /* QWNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QWNavigationBar.m; sourceTree = "<group>"; };
+		D636C278218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+QWNavigationBar.h"; sourceTree = "<group>"; };
+		D636C279218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+QWNavigationBar.m"; sourceTree = "<group>"; };
+		D636C27B218EFE2800CC9DC8 /* TwoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		D636C27C218EFE2800CC9DC8 /* TwoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +122,14 @@
 				D636C24E218EF97100CC9DC8 /* LaunchScreen.storyboard */,
 				D636C251218EF97100CC9DC8 /* Info.plist */,
 				D636C252218EF97100CC9DC8 /* main.m */,
+				D636C275218EF98600CC9DC8 /* QWNavigationBar.h */,
+				D636C276218EF98600CC9DC8 /* QWNavigationBar.m */,
+				D636C278218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.h */,
+				D636C279218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.m */,
+				D616FE18218F058A00B250DA /* UIViewController+QWNavigationBar.h */,
+				D616FE19218F058A00B250DA /* UIViewController+QWNavigationBar.m */,
+				D636C27B218EFE2800CC9DC8 /* TwoViewController.h */,
+				D636C27C218EFE2800CC9DC8 /* TwoViewController.m */,
 			);
 			path = QWNavigationBar;
 			sourceTree = "<group>";
@@ -263,8 +283,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D636C248218EF97000CC9DC8 /* ViewController.m in Sources */,
+				D636C277218EF98600CC9DC8 /* QWNavigationBar.m in Sources */,
 				D636C253218EF97100CC9DC8 /* main.m in Sources */,
+				D636C27D218EFE2800CC9DC8 /* TwoViewController.m in Sources */,
 				D636C245218EF97000CC9DC8 /* AppDelegate.m in Sources */,
+				D636C27A218EFA9300CC9DC8 /* UINavigationController+QWNavigationBar.m in Sources */,
+				D616FE1A218F058A00B250DA /* UIViewController+QWNavigationBar.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QWNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +478,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = QWNavigationBar/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
